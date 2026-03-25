@@ -16,3 +16,11 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+
+// Add global CSS to change the landing page color
+import "./styles/global.css";
+
+// In global.css
+body {
+  background-color: red;
+}
